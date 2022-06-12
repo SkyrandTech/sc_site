@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang=en>
+
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+
+    <meta charset=utf-8>
+
+    <title>SuperClap</title>
+
+    <meta http-equiv=X-UA-Compatible content="IE=edge">
+    <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
+    <meta name=description content="A new protocol for making, keeping, and tracking money-related promises">
+    <meta property=og:description content="A new protocol for making, keeping, and tracking money-related promises">
+    <meta property=og:title content="SuperClap">
+
+
+    <meta property=og:type content=website>
+    <meta property=“og:url” content=“website url“>
+    <meta property=og:site_name content="SuperClap">
+    <meta property=og:title content="SuperClap">
+    <meta property=og:description content="A new protocol for making, keeping, and tracking money-related promises">
+    <meta property=og:image content=http://localhost/assets/img/promise-protocol-graph.png>
+    <link rel=apple-touch-icon sizes=180x180 href=assets/img/apple-touch-icon.png>
+    <link rel=icon type=image/png sizes=32x32 href=assets/img/favicon-32x32.png>
+    <link rel=icon type=image/png sizes=16x16 href=assets/img/favicon-16x16.png>
+    <link rel=mask-icon href=assets/img/safari-pinned-tab.svg color=#5bbad5>
+    <meta name=theme-color content=#ffffff>
+
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto:300,400" rel=stylesheet>
+
+
+
+
+
+    <link href=app.css rel=stylesheet>
+    <style>
+        html {
+            --css-variable-test: 1
+        }
+
+        #css-variable-test {
+            display: none;
+            opacity: var(--css-variable-test)
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header id=header class=header>
+
+
+        <div class="container header-container">
+            <div class="menu-btn hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class=logo-wrap>
+                <a href="index.html#hero" class="logo">
+                    <img src=assets/img/logo.svg alt=logo class=logo__image>
+                </a>
+            </div>
+            <div class=main-nav-wrap>
+              
+            </div>
+            
+            <div class=cta-nav-wrap>
+                <a href="https://app.superclap.co" class="btn btn-ghost btn-title-2" target="_self">Try for free</a>
+            </div>
+        </div>
+
+
+
+    </header>
+
+    <main id=main data-page-id=home>
+        <div class=bg-texture></div>
+        <section id=hero class=hero-section>
+            <div class=container>
+                <div class=text-block>
+                    <h1 class="title-h1 title animated">Find and track contract and freelance opportunities</h1>
+                    <p class="desc-1 description animated">Promise delivers onchain credit reputations, for the world, using digital signatures.</p>
+                    <div class="btn-wrap animated">
+                        <a href="https://app.superclap.co" class="btn btn-primary btn-title-1" target="_blank">Join for free</a>
+                    </div>
+                </div>
+            </div>
+            <div class=visuals-wrap>
+                <div class="visual-left animated-image">
+                    <picture>
+                        <source srcset=./assets/img/hero-left-sx.svg media="(max-width: 768px )">
+                        <source srcset=./assets/img/hero-right.png media="(min-width: 769px)">
+                        <img srcset=./assets/img/hero-right.png alt=hero-left>
+                    </picture>
+                </div>
+                <div class="visual-right animated-image">
+                    <picture>
+                      
+                        <source srcset=./assets/img/hero-left.png media="(width: 50%)">
+                        <img srcset=./assets/img/hero-left.png alt=hero-left>
+                    </picture>
+                </div>
+            </div>
+        </section>
+
+        <section id=promise class=promise-section>
+            <div class=container>
+                <div class=table-wrap>
+                    <div class=left-block>
+                        <h2 class="title-h2 animated">Why SuperClap?</h2>
+                    </div>
+                    <div class=right-block>
+                        <ul class=feature-list>
+                            <li class=feature-list-item>
+                                <div class="icon-wrap animated">
+                                    <img src=assets/img/time.svg alt=promise-icon-1>
+                                </div>
+                                <h3 class="title title-h3 animated">Time is money</h3>
+                                <p class="description desc-2 animated">Private key security makes subscription payments, automated
+                                    payments, and on chain reputations extremely fraught with risk.</p>
+                            </li>
+                            <li class=feature-list-item>
+                                <div class="icon-wrap animated">
+                                    <img src=assets/img/notifications.svg alt=promise-icon-2>
+                                </div>
+                                <h3 class="title title-h3 animated">Fast notifications</h3>
+                                <p class="description desc-2 animated">We aim to enable a new type of automated transactions with
+                                    delegated signing features using group and proxy re-signature technology.</p>
+                            </li>
+                            <li class=feature-list-item>
+                                <div class="icon-wrap animated">
+                                    <img src=assets/img/channel.svg alt=promise-icon-3>
+                                </div>
+                                <h3 class="title title-h3 animated">Multiple channels</h3>
+                                <p class="description desc-2 animated">Promise use of proxy re-signatures for signing authority delegation will enable new blockchain applications and wider adoption.</p>
+                            </li>
+                            <li class=feature-list-item>
+                                <div class="icon-wrap animated">
+                                    <img src=assets/img/more.svg alt=promise-icon-4>
+                                </div>
+                                <h3 class="title title-h3 animated">Lot more to come</h3>
+                                <p class="description desc-2 animated">DApps can now have their own private keys so that automated and repeated payments can be delivered without the need to store private keys online.</p>
+                            </li>
+                        </ul>
+                        <div class=mobile-link-wrap>
+                            <a href=# class=link-cta>Lear More About Our Promises</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="feature promise-feature image-left">
+            <div class=container>
+                <div class="image-wrap animated">
+                    <img src=# data-src=./assets/img/pay_my_bills.png class=lazy alt=promise-protocol-image>
+                </div>
+                <div class=text-wrap>
+                    <h2 class="title-h2 title animated">What will you get?</h2>     
+                    <ul>                
+                        <li><p class="desc-2 description animated">Automated job search from multiple sources</p></li>
+                        <li><p class="desc-2 description animated">Real time notifications</p></li>
+                        <li><p class="desc-2 description animated">Job tracking</p></li>                       
+                        <li><p class="desc-2 description animated">Save time to focus on all your other responsibilities</p></li>
+                       </ul>
+                    <br>
+                    <a href="https://app.superclap.co" class="btn btn-primary btn-title-1" target="_blank" >Sign up</a>
+                </div>
+            </div>
+        </section>
+
+        <section id=solutions class=features-section>
+            <div class=container>
+                <div class="table table-fluid table-wrap">
+                    <div class="title-wrap table-title-wrap">
+                        <h2 class="title-h2 animated">Features</h2>
+                    </div>
+                    <ul class="feature-list feature-list-fluid">
+                        <li class="feature-list-item pb">
+                            <div class="icon-wrap animated">
+                                <img src=assets/img/feature-icon-1.svg alt=feature-icon-1>
+                            </div>
+                            <h3 class="title title-h3 animated">Jobs and gigs at one place</h3>
+                            <p class="description desc-2 animated">Get opportunities for full time jobs and freelane gigs at one place. No need to jump between multiple sites.</p>
+                        </li>
+
+                        <li class="feature-list-item pb">
+                            <div class="icon-wrap animated">
+                                <img src=assets/img/feature-icon-2.svg alt=feature-icon-2>
+                            </div>
+                            <h3 class="title title-h3 animated">Multiple sources</h3>
+                            <p class="description desc-2 animated">we collect data from many job boards, forums and freelance sites.
+                            </p>
+                        </li>
+
+                        <li class="feature-list-item pb">
+                            <div class="icon-wrap animated">
+                                <img src=assets/img/feature-icon-3.svg alt=feature-icon-3>
+                            </div>
+                            <h3 class="title title-h3 animated">Application tracking</h3>
+                            <p class="description desc-2 animated">Track all your jobs and gigs using our Kanban board.
+                            </p>
+                        </li>
+
+                        <li class=feature-list-item>
+                            <div class="icon-wrap animated">
+                                <img src=assets/img/feature-icon-4.svg alt=feature-icon-4>
+                            </div>
+                            <h3 class="title title-h3 animated">Multiple notification channels</h3>
+                            <p class="description desc-2 animated">Get notified for new opportunities via Email and Slack.
+                            </p>
+                        </li>
+
+                        <li class=feature-list-item>
+                            <div class="icon-wrap animated">
+                                <img src=assets/img/feature-icon-5.svg alt=feature-icon-5>
+                            </div>
+                            <h3 class="title title-h3 animated">Free options</h3>
+                            <p class="description desc-2 animated">Use the application for free to find jobs and pay only if you want to use pro features.
+                            </p>
+                        </li>
+
+                        <li class=feature-list-item>
+                            <div class="icon-wrap animated">
+                                <img src=assets/img/feature-icon-6.svg alt=feature-icon-6>
+                            </div>
+                            <h3 class="title title-h3 animated">Browser extension</h3>
+                            <p class="description desc-2 animated">Soon you can add jobs from any site to the tracker in the application.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id=promise class=features-section>
+        </section>
+        <section id=promise class=features-section>
+            <div class=container>
+                <div class="table table-fluid table-wrap">
+                    <div class="title-wrap table-title-wrap">
+                        <h2 class="title-h2 animated">Who is this for?</h2>
+                    </div>
+                    <ul class="feature-list feature-list-fluid promise-list">
+                        <li class=feature-list-item>
+                            <div class="icon-wrap animated">
+                                <img src=assets/img/time.svg alt=promise-icon-1>
+                            </div>
+                            <h3 class="title title-h3 animated">Freelancers</h3>
+                            <p class="description desc-2 animated">Private key security makes subscription payments, automated
+                                payments, and on chain reputations extremely fraught with risk.</p>
+                        </li>
+                        <li class=feature-list-item>
+                            <div class="icon-wrap animated">
+                                <img src=assets/img/notifications.svg alt=promise-icon-2>
+                            </div>
+                            <h3 class="title title-h3 animated">Agencies</h3>
+                            <p class="description desc-2 animated">We aim to enable a new type of automated transactions with
+                                delegated signing features using group and proxy re-signature technology.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id=bills class=my-bills-section>
+            <div class=container>
+                <div class="feature image-right">
+                    <div class="image-wrap animated">
+                        <img class=lazy src=# data-src=./assets/img/pay_my_bills.png alt=pay_my_bills>
+                    </div>
+                    <div class=text-wrap>
+                        <h2 class="title-h2 title animated">Sample DApp Pay My Bills</h2>
+                        <p class="desc-2 description animated">Promise Solution: PayMyBills is a proxy re-signature application that signs your bill payment for you for the exact amount and with a proxy re-signature of the payment transaction that is valid for the
+                            payment of your invoice.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id=roadmap class=roadmap-section>
+            <div class=container>
+                <div class="table table-wrap table-fluid">
+                    <div class="title-wrap table-title-wrap">
+                        <h2 class=title-h2>How it works?</h2>
+                    </div>
+                    <div class=roadmap-wrap>
+
+                        <div class=left-block>
+                            <div class="roadmap-item animated lb">
+                                <h3 class="title title-h3"><span class=indicator></span><img src=assets/img/cal-lb.svg alt=cal-lb> Step 1</h3>
+                                <ul class=roadmap-events-list>
+                                    <li class="roadmap-event desc-2"><span></span>Create filters for all the jobs you want to track</li>
+                                   
+                                </ul>
+                            </div>
+                            <div class="roadmap-item animated large lt">
+                                <h3 class="title title-h3"><span class=indicator></span><img src=assets/img/cal-lt.svg alt=cal-lb> Step 3</h3>
+                                <ul class=roadmap-events-list>
+                                    <li class="roadmap-event desc-2"><span></span>Promise Testnet Alpha two live</li>
+                                    <li class="roadmap-event desc-2"><span></span>Promise Testnet Alpha three</li>
+                                    <li class="roadmap-event desc-2"><span></span>Promise EVM alpha one</li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+
+                        <div class="progress-wrap animated">
+                            <div class=progress>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>                                
+                            </div>
+                        </div>
+
+                        <div class=right-block>
+                            <div class="roadmap-item animated rb">
+                                <h3 class="title title-h3"><span class=indicator></span><img src=assets/img/cal-rb.svg alt=cal-lb>Step 2</h3>
+                                <ul class=roadmap-events-list>
+                                    <li class="roadmap-event desc-2"><span></span>Promise testnet alpha one live</li>
+                                    <li class="roadmap-event desc-2"><span></span>Promise Proxy Re-signature testnet</li>
+                                    <li class="roadmap-event desc-2"><span></span>Distributed Computing Big Block Tests</li>
+                                </ul>
+                            </div>
+                            <div class="roadmap-item animated rt large">
+                                <h3 class="title title-h3"><span class=indicator></span><img src=assets/img/cal-rt.svg alt=cal-lb>Step 4</h3>
+                                <ul class=roadmap-events-list>
+                                    <li class="roadmap-event desc-2"><span></span>Promise Testnet Alpha three live</li>
+                                    <li class="roadmap-event desc-2"><span></span>Promise Security audit one</li>
+                                    <li class="roadmap-event desc-2"><span></span>Promise Testnet Alpha four</li>
+                                    <li class="roadmap-event desc-2"><span></span>Promise EVM Alpha two</li>
+                                </ul>
+                            </div>                           
+                        </div>
+
+                        <div class=mobile-block>
+                            <div class="roadmap-item animated">
+                                <h3 class="title title-h3">August 2019</h3>
+                                <ul class=roadmap-events-list>
+                                    <li class="roadmap-event desc-2"><span></span>Promise Proxy re-signature Rust Library</li>
+                                    <li class="roadmap-event desc-2"><span></span>Promise testnet alpha one design complete</li>
+                                </ul>
+                            </div>
+                            <div class="roadmap-item animated">
+                                <h3 class="title title-h3">September 2019</h3>
+                                <ul class=roadmap-events-list>
+                                    <li class="roadmap-event desc-2"><span></span>Promise testnet alpha one live</li>
+                                    <li class="roadmap-event desc-2"><span></span>Promise Proxy Re-signature testnet</li>
+                                    <li class="roadmap-event desc-2"><span></span>Distributed Computing Big Block Tests</li>
+                                </ul>
+                            </div>
+                            <div class="roadmap-item animated large">
+                                <h3 class="title title-h3">March 2020</h3>
+                                <ul class=roadmap-events-list>
+                                    <li class="roadmap-event desc-2"><span></span>Promise Testnet Alpha two live</li>
+                                    <li class="roadmap-event desc-2"><span></span>Promise Testnet Alpha three</li>
+                                    <li class="roadmap-event desc-2"><span></span>Promise EVM alpha one</li>
+                                </ul>
+                            </div>
+                            <div class="roadmap-item animated large">
+                                <h3 class="title title-h3">June 2020</h3>
+                                <ul class=roadmap-events-list>
+                                    <li class="roadmap-event desc-2"><span></span>Promise Testnet Alpha three live</li>
+                                    <li class="roadmap-event desc-2"><span></span>Promise Security audit one</li>
+                                    <li class="roadmap-event desc-2"><span></span>Promise Testnet Alpha four</li>
+                                    <li class="roadmap-event desc-2"><span></span>Promise EVM Alpha two</li>
+                                </ul>
+                            </div>
+                            <div class="roadmap-item animated">
+                                <h3 class="title title-h3">September 2020</h3>
+                                <ul class=roadmap-events-list>
+                                    <li class="roadmap-event desc-2"><span></span>Promise Testnet Alpha four live</li>
+                                    <li class="roadmap-event desc-2"><span></span>Feature and Security Audit two</li>
+                                    <li class="roadmap-event desc-2"><span></span>Promise EVM Alpha three</li>
+                                    <li class="roadmap-event desc-2"><span></span>Mobile Wallet Alpha Launch</li>
+                                </ul>
+                            </div>
+                            <div class="roadmap-item animated">
+                                <h3 class="title title-h3">December 2020</h3>
+                                <ul class=roadmap-events-list>
+                                    <li class="roadmap-event desc-2"><span></span>First DApp Alpha Design</li>
+                                    <li class="roadmap-event desc-2"><span></span>Feature and Security Audit three</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id=partners class=partners-section>
+            <div class=container>
+                <div class="table table-wrap">
+                    <div class="title-wrap table-title-wrap">
+                        <h2 class="title-h2">Pricing</h2>
+                       
+                    </div>
+                    <div class=partners-item-wrap>
+                        <div class=partners-item>
+                            <h3 class="title title-h2">$5</h3>
+                            <ul class=roadmap-events-list>
+                                <li class="roadmap-event desc-2"><span></span>per month</li>
+                            </ul>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class=footer>
+        <div class="container footer-container">
+            <div class=footer-item>
+                <span class="copyright link">© 2022 SuperClap</span>
+            </div>
+            <div class=footer-item>
+                <a href="./srs_creator/index.html" class=link>Free SRS Creator</a>
+            </div>
+            <div class=footer-item>
+                <a href="#" class=link>Contact</a>
+            </div>
+        </div>
+    </footer>
+    <div id=mobile-menu>
+    </div>
+    <span id=css-variable-test></span>
+    <script type=text/javascript src=app.js> </script>
+</body>
+
+
+</html>
