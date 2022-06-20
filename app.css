@@ -94,7 +94,7 @@ html {
   --letter-spacing-0:              0; }
 
 @media all and (max-width: 768px) {
-  .visuals-wrap {
+  .visuals-wrap, .image-wrap {
     display: none !important;
   }
 }
